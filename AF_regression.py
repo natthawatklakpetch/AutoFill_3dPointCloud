@@ -7,7 +7,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 f, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, sharex='col', sharey='row')
 
-df = pd.read_json('dot.json', orient='records')
+df = pd.read_json('yourdata', orient='records')
 
 dataset = df[:1500]
 
